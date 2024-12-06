@@ -7,9 +7,9 @@ class Car(Vehicle):
 class Plane(Vehicle):
     def move(self):
         return "Flying..."
-class Boat(Vehicle):
+class Ship(Vehicle):
     def move(self):
         return "Sailing..."
-vehicles = [Car(), Plane(), Boat()]
+vehicles = [Car(), Plane(), Ship()]
 for vehicle in vehicles:
     print(vehicle.move())
